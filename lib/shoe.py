@@ -4,6 +4,7 @@ class Shoe:
     def __init__(self, brand=None, size=None):
         self.brand = brand
         self._size = size
+        self.condition = None
     
     @property
     def size(self):
